@@ -23,7 +23,8 @@ app.get('/acadalearning', function(request, response) {
     //response.send("<h2><center>Welcome to Node JS app develpoed by ACADA</h2>");
     response.write("<h2><center><u>Node JS  Application </u></center></h2>");
 	
-    response.write("<h2><center>EmmanuelO wrote this: 
+    response.write("<h2><center>EmmanuelO wrote this: Welcome to Em's hub blabla bla<center></h2>" );
+	response.end();
   })
  
 
