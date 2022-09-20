@@ -33,10 +33,10 @@ jobs:
     - run: echo {}> .prettierrc.json
     #- run: npx prettier --write
     - run: npm i jest-cli
-    #- run: npm run test
-    - run: npm build --if-present
+    #- run: npm test
     - run: npm lint
     - run: npm prettier
+    - run: npm run build --if-present
     - run: npm test
-    - run: npm test
-    - run: npm build
+    #- run: npm test
+    #- run: npm build
