@@ -27,7 +27,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     #- run: npm ci
-    #- run: npm install
+    - run: npm install
     #- run: npm start
     - run: npm install eslint
     - run: npm install --save-dev --save-exact prettier
